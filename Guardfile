@@ -6,7 +6,7 @@ watch(%r{^test/(.
 *
 )_test\.rb$})
 watch('test/test_helper.rb') { 'test' }
-watch('config/routes.rb') { integration_tests }
+watch('config/routes.rb') { 'test' }
 watch(%r{^app/models/(.
 *
 ?)\.rb$}) do |matches|
