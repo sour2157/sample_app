@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SessionsHelperTest < ActionController::TestCase
+class SessionsHelperTest < ActionView::TestCase
   
   def setup
     @user = users(:sourabh)
